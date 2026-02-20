@@ -11,4 +11,4 @@ print("Random integers in the \ range 450 to 950:", num1, num2)
 
 print("Their Average:", avg)
 
-print("Thank You for Using it")
+print("Thank You for Using it"
