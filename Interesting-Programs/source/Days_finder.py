@@ -3,11 +3,9 @@ print("║                 DAYS LEFT IN MONTH FINDER                 ║")
 print("║              (Using If-Else Ladder)                       ║")
 print("╚════════════════════════════════════════════════════════════╝\n")
 
-# Get month input
 month = input("Enter the current month: ").strip()
 print()
 
-# Get date input
 date = int(input("Enter today's date: "))
 print()
 
@@ -15,7 +13,7 @@ print("════════════════════════�
 print("CALCULATION RESULTS:")
 print("════════════════════════════════════════════════════════════\n")
 
-# IF-ELSE LADDER STARTS HERE
+
 if month == "January" or month == "january" or month == "JANUARY":
     if 1 <= date <= 31:
         print(f"📅 Month: January")
@@ -31,7 +29,7 @@ elif month == "February" or month == "february" or month == "FEBRUARY":
         print(f"📅 Month: February")
         print(f"📆 Today's Date: {date}")
         
-        # Check for leap year (using if-else inside)
+    
         if date <= 28:
             print(f"✅ Days left in February: {28 - date}")
         else:
@@ -148,7 +146,7 @@ elif month == "December" or month == "december" or month == "DECEMBER":
 else:
     print("❌ ERROR: Invalid month name!")
     print("   Please enter a valid month (e.g., January, February, etc.)")
-# END OF IF-ELSE LADDER
+
 
 print("\n════════════════════════════════════════════════════════════")
 print("📝 NOTE: February is shown with 28 days by default")
