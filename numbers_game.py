@@ -11,4 +11,4 @@ elif(a + b + c == 1000):
    print("You make the game Foul!")
 
 else:
-  print("You lose the game!")
+ print("You lose the game!")
