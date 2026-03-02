@@ -1,4 +1,4 @@
-mport random
+import random
 
 print("We will find Average of Numbers🔢\n")
 
