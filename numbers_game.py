@@ -1,4 +1,4 @@
-print("Enter three numbers to begin the game.")
+ print("Enter three numbers to begin the game.")
 
 a = int(input("Enter first number:"))
 b = int(input("Enter second number:"))
